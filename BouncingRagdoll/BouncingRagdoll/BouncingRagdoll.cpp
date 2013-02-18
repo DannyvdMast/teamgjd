@@ -2,7 +2,8 @@
 //
 
 #include "stdafx.h"
-
+#include <cyclone/cyclone.h> 
+#include <gl/glut.h>
 
 int _tmain(int argc, _TCHAR* argv[])
 {
