@@ -76,15 +76,18 @@
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h" />
-    <ClInclude Include="targetver.h" />
+    <ClCompile Include="Common\app.cpp" />
+    <ClCompile Include="Common\timing.cpp" />
+    <ClCompile Include="src\BouncingRagdoll.cpp" />
+    <ClCompile Include="src\Box.cpp" />
+    <ClCompile Include="src\stdafx.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BouncingRagdoll.cpp" />
-    <ClCompile Include="stdafx.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
-    </ClCompile>
+    <ClInclude Include="Common\app.h" />
+    <ClInclude Include="Common\timing.h" />
+    <ClInclude Include="Header\Box.h" />
+    <ClInclude Include="Header\stdafx.h" />
+    <ClInclude Include="Header\targetver.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
