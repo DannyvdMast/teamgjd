@@ -1,30 +1,49 @@
-﻿Build started 2/18/2013 12:13:37 PM.
+﻿Build started 2/18/2013 2:03:56 PM.
      1>Project "C:\Users\Danny van der Mast\Documents\School\BU\Advanced Physics\Practicum\teamgjd\BouncingRagdoll\BouncingRagdoll\BouncingRagdoll.vcxproj" on node 3 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\BouncingRagdoll.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         All outputs are up-to-date.
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\..\cyclone-physics-master\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\BouncingRagdoll.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\..\cyclone-physics-master\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\BouncingRagdoll.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Common\app.cpp Common\timing.cpp src\BouncingRagdoll.cpp src\Box.cpp src\stdafx.cpp
          stdafx.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\..\cyclone-physics-master\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\BouncingRagdoll.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BouncingRagdoll.cpp
+         Box.cpp
+     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\src\box.cpp(1): warning C4627: '#include <gl/glut.h>': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\src\box.cpp(2): warning C4627: '#include <cyclone/cyclone.h>': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\src\box.cpp(59): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
          BouncingRagdoll.cpp
-       ManifestResourceCompile:
-         All outputs are up-to-date.
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Danny van der Mast\Documents\School\BU\Advanced Physics\Practicum\teamgjd\BouncingRagdoll\Debug\BouncingRagdoll.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BouncingRagdoll.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Danny van der Mast\Documents\School\BU\Advanced Physics\Practicum\teamgjd\BouncingRagdoll\Debug\BouncingRagdoll.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Danny van der Mast\Documents\School\BU\Advanced Physics\Practicum\teamgjd\BouncingRagdoll\Debug\BouncingRagdoll.lib" /MACHINE:X86 Debug\BouncingRagdoll.exe.embed.manifest.res
-         Debug\BouncingRagdoll.obj
-         Debug\stdafx.obj
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\BouncingRagdoll.exe.embed.manifest" /manifest Debug\BouncingRagdoll.exe.intermediate.manifest
-         All outputs are up-to-date.
-       LinkEmbedManifest:
-         All outputs are up-to-date.
-         BouncingRagdoll.vcxproj -> C:\Users\Danny van der Mast\Documents\School\BU\Advanced Physics\Practicum\teamgjd\BouncingRagdoll\Debug\BouncingRagdoll.exe
-       FinalizeBuildStatus:
-         Deleting file "Debug\BouncingRagdoll.unsuccessfulbuild".
-         Touching "Debug\BouncingRagdoll.lastbuildstate".
-     1>Done Building Project "C:\Users\Danny van der Mast\Documents\School\BU\Advanced Physics\Practicum\teamgjd\BouncingRagdoll\BouncingRagdoll\BouncingRagdoll.vcxproj" (build target(s)).
+     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\src\bouncingragdoll.cpp(4): warning C4627: '#include "..\Header\stdafx.h"': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\src\bouncingragdoll.cpp(5): warning C4627: '#include <cyclone/cyclone.h>': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\src\bouncingragdoll.cpp(6): warning C4627: '#include <gl/glut.h>': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\src\bouncingragdoll.cpp(7): warning C4627: '#include "..\Common\app.h"': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\src\bouncingragdoll.cpp(8): warning C4627: '#include "..\Common\timing.h"': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\src\bouncingragdoll.cpp(76): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         timing.cpp
+     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\common\timing.cpp(13): warning C4627: '#include "timing.h"': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\common\timing.cpp(16): warning C4627: '#include <windows.h>': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\common\timing.cpp(17): warning C4627: '#include <mmsystem.h>': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\common\timing.cpp(149): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         app.cpp
+     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\common\app.cpp(12): warning C4627: '#include <cstring>': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\common\app.cpp(13): warning C4627: '#include <gl/glut.h>': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\common\app.cpp(14): warning C4627: '#include "app.h"': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\common\app.cpp(15): warning C4627: '#include "timing.h"': skipped when looking for precompiled header use
+                 Add directive to 'StdAfx.h' or rebuild precompiled header
+     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\common\app.cpp(328): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         Generating Code...
+     1>Done Building Project "C:\Users\Danny van der Mast\Documents\School\BU\Advanced Physics\Practicum\teamgjd\BouncingRagdoll\BouncingRagdoll\BouncingRagdoll.vcxproj" (build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:01.97
+Time Elapsed 00:00:00.15

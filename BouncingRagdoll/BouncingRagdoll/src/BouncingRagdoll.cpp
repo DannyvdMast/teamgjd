@@ -4,8 +4,8 @@
 #include "..\Header\stdafx.h"
 #include <cyclone/cyclone.h> 
 #include <gl/glut.h>
-#include "..\Common Files\app.h"
-#include "..\Common Files\timing.h"
+#include "..\Common\app.h"
+#include "..\Common\timing.h"
 
 class Box : public cyclone::CollisionBox
 {
