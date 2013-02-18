@@ -1,0 +1,40 @@
+﻿Build started 2/11/2013 10:41:32 AM.
+     1>Project "C:\Users\Danny van der Mast\Documents\School\BU\Advanced Physics\Practicum\cyclone-physics-master\cyclone-physics-master\build\demo_bridge_vc8.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "..\tmp\bridge\Debug\demo_bridge.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\include /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\tmp\bridge\Debug\\" /Fd"..\tmp\bridge\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\demos\bridge\bridge.cpp ..\src\demos\app.cpp ..\src\demos\timing.cpp
+         timing.cpp
+         app.cpp
+         bridge.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\include /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\tmp\bridge\Debug\main1.obj" /Fd"..\tmp\bridge\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\demos\main.cpp
+         main.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"..\tmp\bridge\Debug\demo_bridge.exe.embed.manifest.res" ..\tmp\bridge\Debug\demo_bridge_manifest.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Danny van der Mast\Documents\School\BU\Advanced Physics\Practicum\cyclone-physics-master\cyclone-physics-master\build\..\bin\demo_bridge.exe) does not match the Linker's OutputFile property value (C:\Users\Danny van der Mast\Documents\School\BU\Advanced Physics\Practicum\cyclone-physics-master\cyclone-physics-master\bin\bridge_d.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(demo_bridge) does not match the Linker's OutputFile property value (bridge_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\bridge_d.exe" /INCREMENTAL /NOLOGO /LIBPATH:../lib cyclone_d.lib opengl32.lib glu32.lib glut32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"..\tmp\bridge\Debug\demo_bridge.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"..\tmp\bridge\Debug/bridge.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\bin\demo_bridge.lib" /MACHINE:X86 ..\tmp\bridge\Debug\demo_bridge.exe.embed.manifest.res
+         ..\tmp\bridge\Debug\bridge.obj
+         ..\tmp\bridge\Debug\app.obj
+         ..\tmp\bridge\Debug\timing.obj
+         ..\tmp\bridge\Debug\main1.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"..\tmp\bridge\Debug\demo_bridge.exe.embed.manifest" /manifest ..\tmp\bridge\Debug\demo_bridge.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"..\tmp\bridge\Debug\demo_bridge.exe.embed.manifest.res" ..\tmp\bridge\Debug\demo_bridge_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\bridge_d.exe" /INCREMENTAL /NOLOGO /LIBPATH:../lib cyclone_d.lib opengl32.lib glu32.lib glut32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"..\tmp\bridge\Debug\demo_bridge.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"..\tmp\bridge\Debug/bridge.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\bin\demo_bridge.lib" /MACHINE:X86 ..\tmp\bridge\Debug\demo_bridge.exe.embed.manifest.res
+         ..\tmp\bridge\Debug\bridge.obj
+         ..\tmp\bridge\Debug\app.obj
+         ..\tmp\bridge\Debug\timing.obj
+         ..\tmp\bridge\Debug\main1.obj
+         demo_bridge_vc8.vcxproj -> C:\Users\Danny van der Mast\Documents\School\BU\Advanced Physics\Practicum\cyclone-physics-master\cyclone-physics-master\build\..\bin\demo_bridge.exe
+       FinalizeBuildStatus:
+         Deleting file "..\tmp\bridge\Debug\demo_bridge.unsuccessfulbuild".
+         Touching "..\tmp\bridge\Debug\demo_bridge.lastbuildstate".
+     1>Done Building Project "C:\Users\Danny van der Mast\Documents\School\BU\Advanced Physics\Practicum\cyclone-physics-master\cyclone-physics-master\build\demo_bridge_vc8.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.22
