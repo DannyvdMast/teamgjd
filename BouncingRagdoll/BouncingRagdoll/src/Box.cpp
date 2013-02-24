@@ -1,5 +1,6 @@
 #include <gl/glut.h>
 #include <cyclone/cyclone.h>
+#include "..\Header\stdafx.h"
 
 class Box : public cyclone::CollisionBox
 {

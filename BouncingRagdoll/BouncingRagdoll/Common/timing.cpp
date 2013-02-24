@@ -10,7 +10,8 @@
  * software licence.
  */
 
-#include "timing.h"
+#include "..\Header\StdAfx.h"
+#include "..\Common\timing.h"
 
 // Import the high performance timer (c. 4ms).
 #include <windows.h>

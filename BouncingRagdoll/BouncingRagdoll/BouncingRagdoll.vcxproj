@@ -19,7 +19,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -38,14 +38,16 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LinkIncremental>true</LinkIncremental>
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>bin\</OutDir>
+    <IntDir>tmp\Debug\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -54,6 +56,9 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <MapExports>true</MapExports>
+      <AdditionalLibraryDirectories>..\..\cyclone-physics-master\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cyclone_d.lib;opengl32.lib;glu32.lib;glut32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -77,17 +82,27 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Common\app.cpp" />
+    <ClCompile Include="Common\main.cpp" />
     <ClCompile Include="Common\timing.cpp" />
     <ClCompile Include="src\BouncingRagdoll.cpp" />
-    <ClCompile Include="src\Box.cpp" />
     <ClCompile Include="src\stdafx.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BouncingRagdoll.h" />
     <ClInclude Include="Common\app.h" />
     <ClInclude Include="Common\timing.h" />
-    <ClInclude Include="Header\Box.h" />
     <ClInclude Include="Header\stdafx.h" />
     <ClInclude Include="Header\targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\cyclone-physics-master\build\cyclone_vc8.vcxproj">
+      <Project>{5e9a54f0-b92f-4e05-a31a-640dc1e99e4e}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

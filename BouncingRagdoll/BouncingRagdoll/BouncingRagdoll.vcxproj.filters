@@ -30,11 +30,11 @@
     <ClCompile Include="src\BouncingRagdoll.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Box.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\stdafx.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\main.cpp">
+      <Filter>Common files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -44,13 +44,13 @@
     <ClInclude Include="Common\timing.h">
       <Filter>Common files</Filter>
     </ClInclude>
-    <ClInclude Include="Header\Box.h">
+    <ClInclude Include="Header\targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Header\stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Header\targetver.h">
+    <ClInclude Include="BouncingRagdoll.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

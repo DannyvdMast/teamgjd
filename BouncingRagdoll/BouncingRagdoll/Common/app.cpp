@@ -9,10 +9,11 @@
  * implies agreement with all terms and conditions of the accompanying
  * software licence.
  */
+#include "..\Header\StdAfx.h"
 #include <cstring>
 #include <gl/glut.h>
-#include "app.h"
-#include "timing.h"
+#include "..\Common\app.h"
+#include "..\Common\timing.h"
 
 void Application::initGraphics()
 {

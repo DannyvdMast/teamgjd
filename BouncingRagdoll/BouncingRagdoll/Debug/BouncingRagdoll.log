@@ -1,49 +1,65 @@
-﻿Build started 2/18/2013 2:03:56 PM.
-     1>Project "C:\Users\Danny van der Mast\Documents\School\BU\Advanced Physics\Practicum\teamgjd\BouncingRagdoll\BouncingRagdoll\BouncingRagdoll.vcxproj" on node 3 (build target(s)).
+﻿Build started 2/24/2013 7:19:20 PM.
+     1>Project "C:\Users\Danny van der Mast\Documents\School\BU\Advanced Physics\Practicum\teamgjd\BouncingRagdoll\BouncingRagdoll\BouncingRagdoll.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Creating "Debug\BouncingRagdoll.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "Debug\BouncingRagdoll.unsuccessfulbuild".
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\..\cyclone-physics-master\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\BouncingRagdoll.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Common\app.cpp Common\timing.cpp src\BouncingRagdoll.cpp src\Box.cpp src\stdafx.cpp
-         stdafx.cpp
-         Box.cpp
-     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\src\box.cpp(1): warning C4627: '#include <gl/glut.h>': skipped when looking for precompiled header use
-                 Add directive to 'StdAfx.h' or rebuild precompiled header
-     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\src\box.cpp(2): warning C4627: '#include <cyclone/cyclone.h>': skipped when looking for precompiled header use
-                 Add directive to 'StdAfx.h' or rebuild precompiled header
-     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\src\box.cpp(59): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
-         BouncingRagdoll.cpp
-     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\src\bouncingragdoll.cpp(4): warning C4627: '#include "..\Header\stdafx.h"': skipped when looking for precompiled header use
-                 Add directive to 'StdAfx.h' or rebuild precompiled header
-     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\src\bouncingragdoll.cpp(5): warning C4627: '#include <cyclone/cyclone.h>': skipped when looking for precompiled header use
-                 Add directive to 'StdAfx.h' or rebuild precompiled header
-     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\src\bouncingragdoll.cpp(6): warning C4627: '#include <gl/glut.h>': skipped when looking for precompiled header use
-                 Add directive to 'StdAfx.h' or rebuild precompiled header
-     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\src\bouncingragdoll.cpp(7): warning C4627: '#include "..\Common\app.h"': skipped when looking for precompiled header use
-                 Add directive to 'StdAfx.h' or rebuild precompiled header
-     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\src\bouncingragdoll.cpp(8): warning C4627: '#include "..\Common\timing.h"': skipped when looking for precompiled header use
-                 Add directive to 'StdAfx.h' or rebuild precompiled header
-     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\src\bouncingragdoll.cpp(76): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
-         timing.cpp
-     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\common\timing.cpp(13): warning C4627: '#include "timing.h"': skipped when looking for precompiled header use
-                 Add directive to 'StdAfx.h' or rebuild precompiled header
-     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\common\timing.cpp(16): warning C4627: '#include <windows.h>': skipped when looking for precompiled header use
-                 Add directive to 'StdAfx.h' or rebuild precompiled header
-     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\common\timing.cpp(17): warning C4627: '#include <mmsystem.h>': skipped when looking for precompiled header use
-                 Add directive to 'StdAfx.h' or rebuild precompiled header
-     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\common\timing.cpp(149): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
-         app.cpp
-     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\common\app.cpp(12): warning C4627: '#include <cstring>': skipped when looking for precompiled header use
-                 Add directive to 'StdAfx.h' or rebuild precompiled header
-     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\common\app.cpp(13): warning C4627: '#include <gl/glut.h>': skipped when looking for precompiled header use
-                 Add directive to 'StdAfx.h' or rebuild precompiled header
-     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\common\app.cpp(14): warning C4627: '#include "app.h"': skipped when looking for precompiled header use
-                 Add directive to 'StdAfx.h' or rebuild precompiled header
-     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\common\app.cpp(15): warning C4627: '#include "timing.h"': skipped when looking for precompiled header use
-                 Add directive to 'StdAfx.h' or rebuild precompiled header
-     1>c:\users\danny van der mast\documents\school\bu\advanced physics\practicum\teamgjd\bouncingragdoll\bouncingragdoll\common\app.cpp(328): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
-         Generating Code...
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Danny van der Mast\Documents\School\BU\Advanced Physics\Practicum\teamgjd\BouncingRagdoll\Debug\BouncingRagdoll.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BouncingRagdoll.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Danny van der Mast\Documents\School\BU\Advanced Physics\Practicum\teamgjd\BouncingRagdoll\Debug\BouncingRagdoll.pdb" /MAPINFO:EXPORTS /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Danny van der Mast\Documents\School\BU\Advanced Physics\Practicum\teamgjd\BouncingRagdoll\Debug\BouncingRagdoll.lib" /MACHINE:X86 Debug\BouncingRagdoll.exe.embed.manifest.res
+         Debug\app.obj
+         Debug\main.obj
+         Debug\timing.obj
+         Debug\BouncingRagdoll.obj
+         Debug\stdafx.obj
+         "C:\Users\Danny van der Mast\Documents\School\BU\Advanced Physics\Practicum\teamgjd\cyclone-physics-master\lib\cyclone_d.lib"
+     1>msvcprtd.lib(MSVCP100D.dll) : error LNK2005: "public: struct std::_Iterator_base12 * * __thiscall std::_Container_base12::_Getpfirst(void)const " (?_Getpfirst@_Container_base12@std@@QBEPAPAU_Iterator_base12@2@XZ) already defined in cyclone_d.lib(pfgen.obj)
+     1>msvcprtd.lib(MSVCP100D.dll) : error LNK2005: "public: void __thiscall std::_Container_base12::_Orphan_all(void)" (?_Orphan_all@_Container_base12@std@@QAEXXZ) already defined in cyclone_d.lib(pworld.obj)
+     1>LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>app.obj : error LNK2019: unresolved external symbol __imp__glShadeModel@4 referenced in function "public: virtual void __thiscall Application::initGraphics(void)" (?initGraphics@Application@@UAEXXZ)
+     1>app.obj : error LNK2019: unresolved external symbol __imp__glEnable@4 referenced in function "public: virtual void __thiscall Application::initGraphics(void)" (?initGraphics@Application@@UAEXXZ)
+     1>app.obj : error LNK2019: unresolved external symbol __imp__glClearColor@16 referenced in function "public: virtual void __thiscall Application::initGraphics(void)" (?initGraphics@Application@@UAEXXZ)
+     1>app.obj : error LNK2019: unresolved external symbol _gluPerspective@32 referenced in function "public: virtual void __thiscall Application::setView(void)" (?setView@Application@@UAEXXZ)
+     1>app.obj : error LNK2019: unresolved external symbol __imp__glLoadIdentity@0 referenced in function "public: virtual void __thiscall Application::setView(void)" (?setView@Application@@UAEXXZ)
+     1>app.obj : error LNK2019: unresolved external symbol __imp__glMatrixMode@4 referenced in function "public: virtual void __thiscall Application::setView(void)" (?setView@Application@@UAEXXZ)
+     1>app.obj : error LNK2019: unresolved external symbol __imp__glEnd@0 referenced in function "public: virtual void __thiscall Application::display(void)" (?display@Application@@UAEXXZ)
+     1>app.obj : error LNK2019: unresolved external symbol __imp__glVertex2i@8 referenced in function "public: virtual void __thiscall Application::display(void)" (?display@Application@@UAEXXZ)
+     1>app.obj : error LNK2019: unresolved external symbol __imp__glBegin@4 referenced in function "public: virtual void __thiscall Application::display(void)" (?display@Application@@UAEXXZ)
+     1>app.obj : error LNK2019: unresolved external symbol __imp__glClear@4 referenced in function "public: virtual void __thiscall Application::display(void)" (?display@Application@@UAEXXZ)
+     1>app.obj : error LNK2019: unresolved external symbol _glutPostRedisplay@0 referenced in function "public: virtual void __thiscall Application::update(void)" (?update@Application@@UAEXXZ)
+     1>app.obj : error LNK2019: unresolved external symbol __imp__glViewport@16 referenced in function "public: virtual void __thiscall Application::resize(int,int)" (?resize@Application@@UAEXHH@Z)
+     1>app.obj : error LNK2019: unresolved external symbol __imp__glPopMatrix@0 referenced in function "public: void __thiscall Application::renderText(float,float,char const *,void *)" (?renderText@Application@@QAEXMMPBDPAX@Z)
+     1>app.obj : error LNK2019: unresolved external symbol _glutBitmapCharacter@8 referenced in function "public: void __thiscall Application::renderText(float,float,char const *,void *)" (?renderText@Application@@QAEXMMPBDPAX@Z)
+     1>app.obj : error LNK2019: unresolved external symbol __imp__glRasterPos2f@8 referenced in function "public: void __thiscall Application::renderText(float,float,char const *,void *)" (?renderText@Application@@QAEXMMPBDPAX@Z)
+     1>app.obj : error LNK2019: unresolved external symbol __imp__glOrtho@48 referenced in function "public: void __thiscall Application::renderText(float,float,char const *,void *)" (?renderText@Application@@QAEXMMPBDPAX@Z)
+     1>app.obj : error LNK2019: unresolved external symbol __imp__glPushMatrix@0 referenced in function "public: void __thiscall Application::renderText(float,float,char const *,void *)" (?renderText@Application@@QAEXMMPBDPAX@Z)
+     1>app.obj : error LNK2019: unresolved external symbol __imp__glDisable@4 referenced in function "public: void __thiscall Application::renderText(float,float,char const *,void *)" (?renderText@Application@@QAEXMMPBDPAX@Z)
+     1>app.obj : error LNK2019: unresolved external symbol _glutSolidSphere@16 referenced in function "public: virtual void __thiscall MassAggregateApplication::display(void)" (?display@MassAggregateApplication@@UAEXXZ)
+     1>app.obj : error LNK2019: unresolved external symbol __imp__glTranslatef@12 referenced in function "public: virtual void __thiscall MassAggregateApplication::display(void)" (?display@MassAggregateApplication@@UAEXXZ)
+     1>app.obj : error LNK2019: unresolved external symbol __imp__glColor3f@12 referenced in function "public: virtual void __thiscall MassAggregateApplication::display(void)" (?display@MassAggregateApplication@@UAEXXZ)
+     1>app.obj : error LNK2019: unresolved external symbol _gluLookAt@72 referenced in function "public: virtual void __thiscall MassAggregateApplication::display(void)" (?display@MassAggregateApplication@@UAEXXZ)
+     1>app.obj : error LNK2019: unresolved external symbol __imp__glRotatef@16 referenced in function "public: virtual void __thiscall RigidBodyApplication::display(void)" (?display@RigidBodyApplication@@UAEXXZ)
+     1>app.obj : error LNK2019: unresolved external symbol __imp__glVertex3f@12 referenced in function "protected: void __thiscall RigidBodyApplication::drawDebug(void)" (?drawDebug@RigidBodyApplication@@IAEXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _glutCreateWindow@4 referenced in function "void __cdecl createWindow(char const *)" (?createWindow@@YAXPBD@Z)
+     1>main.obj : error LNK2019: unresolved external symbol _glutInitWindowPosition@8 referenced in function "void __cdecl createWindow(char const *)" (?createWindow@@YAXPBD@Z)
+     1>main.obj : error LNK2019: unresolved external symbol _glutInitWindowSize@8 referenced in function "void __cdecl createWindow(char const *)" (?createWindow@@YAXPBD@Z)
+     1>main.obj : error LNK2019: unresolved external symbol _glutInitDisplayMode@4 referenced in function "void __cdecl createWindow(char const *)" (?createWindow@@YAXPBD@Z)
+     1>main.obj : error LNK2019: unresolved external symbol _glutSwapBuffers@0 referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol __imp__glFlush@0 referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+     1>main.obj : error LNK2019: unresolved external symbol _glutMainLoop@0 referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _glutMotionFunc@4 referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _glutMouseFunc@4 referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _glutIdleFunc@4 referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _glutDisplayFunc@4 referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _glutKeyboardFunc@4 referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _glutReshapeFunc@4 referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol "class Application * __cdecl getApplication(void)" (?getApplication@@YAPAVApplication@@XZ) referenced in function _main
+     1>main.obj : error LNK2019: unresolved external symbol _glutInit@8 referenced in function _main
+     1>timing.obj : error LNK2019: unresolved external symbol __imp__timeGetTime@0 referenced in function "unsigned int __cdecl systemTime(void)" (?systemTime@@YAIXZ)
+     1>C:\Users\Danny van der Mast\Documents\School\BU\Advanced Physics\Practicum\teamgjd\BouncingRagdoll\Debug\BouncingRagdoll.exe : fatal error LNK1120: 40 unresolved externals
      1>Done Building Project "C:\Users\Danny van der Mast\Documents\School\BU\Advanced Physics\Practicum\teamgjd\BouncingRagdoll\BouncingRagdoll\BouncingRagdoll.vcxproj" (build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:00.15
+Time Elapsed 00:00:00.35

@@ -1,0 +1,31 @@
+﻿Build started 2/24/2013 7:54:42 PM.
+     1>Project "C:\Users\Danny van der Mast\Documents\School\BU\Advanced Physics\Practicum\teamgjd\BouncingRagdoll\BouncingRagdoll\BouncingRagdoll.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "tmp\Debug\BouncingRagdoll.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\..\cyclone-physics-master\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"tmp\Debug\\" /Fd"tmp\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Common\app.cpp Common\main.cpp Common\timing.cpp src\BouncingRagdoll.cpp src\stdafx.cpp
+         Skipping... (no relevant changes detected)
+         stdafx.cpp
+         BouncingRagdoll.cpp
+         timing.cpp
+         main.cpp
+         app.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\BouncingRagdoll.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"..\..\cyclone-physics-master\lib" cyclone_d.lib opengl32.lib glu32.lib glut32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"tmp\Debug\BouncingRagdoll.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Danny van der Mast\Documents\School\BU\Advanced Physics\Practicum\teamgjd\BouncingRagdoll\BouncingRagdoll\bin\BouncingRagdoll.pdb" /MAPINFO:EXPORTS /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\BouncingRagdoll.lib" /MACHINE:X86 tmp\Debug\app.obj
+         tmp\Debug\main.obj
+         tmp\Debug\timing.obj
+         tmp\Debug\BouncingRagdoll.obj
+         tmp\Debug\stdafx.obj
+         "C:\Users\Danny van der Mast\Documents\School\BU\Advanced Physics\Practicum\teamgjd\cyclone-physics-master\lib\cyclone_d.lib"
+     1>app.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     1>msvcprtd.lib(MSVCP100D.dll) : error LNK2005: "public: struct std::_Iterator_base12 * * __thiscall std::_Container_base12::_Getpfirst(void)const " (?_Getpfirst@_Container_base12@std@@QBEPAPAU_Iterator_base12@2@XZ) already defined in cyclone_d.lib(pfgen.obj)
+     1>msvcprtd.lib(MSVCP100D.dll) : error LNK2005: "public: void __thiscall std::_Container_base12::_Orphan_all(void)" (?_Orphan_all@_Container_base12@std@@QAEXXZ) already defined in cyclone_d.lib(pworld.obj)
+     1>LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>main.obj : error LNK2019: unresolved external symbol "class Application * __cdecl getApplication(void)" (?getApplication@@YAPAVApplication@@XZ) referenced in function _main
+     1>bin\BouncingRagdoll.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\Danny van der Mast\Documents\School\BU\Advanced Physics\Practicum\teamgjd\BouncingRagdoll\BouncingRagdoll\BouncingRagdoll.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.29
